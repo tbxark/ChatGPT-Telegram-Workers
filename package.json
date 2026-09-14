@@ -59,7 +59,7 @@
         "rollup-plugin-node-externals": "^8.1.1",
         "stylelint": "^16.25.0",
         "telegram-bot-api-types": "^9.2.0",
-        "toml": "^3.0.0",
+        "toml": "^4.2.0",
         "tsx": "^4.20.6",
         "typescript": "^5.9.3",
         "vercel": "^48.4.1",
