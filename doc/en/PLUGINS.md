@@ -135,3 +135,6 @@ You can try the syntax live on your own deployment at `https://<your-domain>/int
 1. [DNS lookup plugin](../../plugins/dns.json) — `/dns A www.example.com`
 2. [English dictionary plugin](../../plugins/dicten.json) — `/dict hello`
 3. [Image generation plugin](../../plugins/pollinations.json) — `/pollinations a cat in space`
+4. [LivePair image generation plugin](../../plugins/livepair.json) — `/livepair a cat in space`
+
+   Uses the OpenAI-compatible `POST /v1/agent/images/generations` endpoint. Set `LIVEPAIR_API_KEY` (`lp_…` key from [livepairai.com](https://livepairai.com)) and `LIVEPAIR_MODEL` (e.g. `seedream-5.0` or `qwen-image-3` — full list in `GET /v1/agent/models`) in the plugin's *Env* field.
