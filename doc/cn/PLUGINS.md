@@ -138,3 +138,6 @@ export interface RequestTemplate {
 1. [DNS 查询插件](../../plugins/dns.json) — `/dns A www.example.com`
 2. [英语词典插件](../../plugins/dicten.json) — `/dict hello`
 3. [图片生成插件](../../plugins/pollinations.json) — `/pollinations 一只在太空中的猫`
+4. [LivePair 图片生成插件](../../plugins/livepair.json) — `/livepair 一只在太空中的猫`
+
+   使用 OpenAI 兼容的 `POST /v1/agent/images/generations` 接口。在插件的 *Env* 字段中设置 `LIVEPAIR_API_KEY`（来自 [livepairai.com](https://livepairai.com) 的 `lp_` 密钥）和 `LIVEPAIR_MODEL`（例如 `seedream-5.0` 或 `qwen-image-3`，完整列表见 `GET /v1/agent/models`）。

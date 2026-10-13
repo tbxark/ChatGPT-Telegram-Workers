@@ -1,0 +1,32 @@
+{
+    "url": "https://livepairai.com/v1/agent/images/generations",
+    "method": "POST",
+    "headers": {
+        "Authorization": "Bearer {{ENV.LIVEPAIR_API_KEY}}",
+        "Content-Type": "application/json"
+    },
+    "input": {
+        "type": "text",
+        "required": true
+    },
+    "body": {
+        "type": "json",
+        "content": {
+            "model": "{{ENV.LIVEPAIR_MODEL}}",
+            "prompt": "{{DATA}}",
+            "response_format": "url"
+        }
+    },
+    "response": {
+        "content": {
+            "input_type": "json",
+            "output_type": "image",
+            "output": "{{#each item in data}}{{item.url}}{{/each}}"
+        },
+        "error": {
+            "input_type": "json",
+            "output_type": "text",
+            "output": "Error: {{error.message}}"
+        }
+    }
+}
