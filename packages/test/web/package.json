@@ -11,6 +11,6 @@
     },
     "devDependencies": {
         "@chatgpt-telegram-workers/test-mocks": "workspace:*",
-        "@playwright/test": "^1.63.0"
+        "@playwright/test": "^1.65.1"
     }
 }

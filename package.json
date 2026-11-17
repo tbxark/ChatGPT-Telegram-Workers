@@ -54,16 +54,16 @@
     },
     "devDependencies": {
         "@cloudflare/vitest-pool-workers": "^0.22.0",
-        "@types/node": "^26.5.1",
+        "@types/node": "^26.6.6",
         "esbuild": "^0.28.2",
         "jsonc-parser": "^3.3.1",
         "oxfmt": "^0.68.0",
-        "oxlint": "^1.83.0",
-        "tsx": "^4.23.13",
+        "oxlint": "^1.93.0",
+        "tsx": "^4.23.15",
         "typescript": "^7.0.2",
-        "vite": "^8.3.0",
-        "vitest": "^4.1.11",
-        "wrangler": "^4.131.2"
+        "vite": "^8.3.8",
+        "vitest": "^4.1.12",
+        "wrangler": "^4.162.0"
     },
     "engines": {
         "node": ">=24.0.0"

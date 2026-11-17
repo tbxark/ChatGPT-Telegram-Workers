@@ -15,8 +15,8 @@
         "jsonc-parser": "^3.3.1",
         "sqlite3": "^6.0.1",
         "telegram-bot-api-types": "^10.2.0",
-        "telegramify-markdown": "^1.3.3",
-        "undici": "^8.10.2"
+        "telegramify-markdown": "^1.3.4",
+        "undici": "^8.12.4"
     },
     "devDependencies": {
         "@chatgpt-telegram-workers/test-mocks": "workspace:*"

@@ -13,6 +13,6 @@
         "@chatgpt-telegram-workers/plugins": "workspace:*"
     },
     "devDependencies": {
-        "vite": "^8.3.0"
+        "vite": "^8.3.8"
     }
 }

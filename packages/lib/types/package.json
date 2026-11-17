@@ -9,6 +9,6 @@
         "clean": "rm -rf dist && rm -rf node_modules && rm -rf tsconfig.tsbuildinfo"
     },
     "dependencies": {
-        "@cloudflare/workers-types": "^5.20260915.1"
+        "@cloudflare/workers-types": "^5.20261116.1"
     }
 }
